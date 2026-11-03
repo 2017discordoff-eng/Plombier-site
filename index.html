@@ -119,10 +119,11 @@ footer.end .links a{color:#d6e4f4}
   <div class="card" id="devis">
     <h2>Demandez votre devis gratuit</h2>
     <p class="sub">Décrivez votre besoin, je vous rappelle rapidement.</p>
-    <form action="https://formsubmit.co/mangedespieds@hotmail.com" method="post">
-      <input type="hidden" name="_subject" value="Nouvelle demande de devis – Fabre Plomberie Chauffage">
-      <input type="hidden" name="_template" value="table">
-      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+    <form action="https://api.web3forms.com/submit" method="post">
+      <input type="hidden" name="access_key" value="be74370c-d2c5-4da9-94dd-3b773ef0999a">
+      <input type="hidden" name="subject" value="Nouvelle demande de devis – Fabre Plomberie Chauffage">
+      <input type="hidden" name="from_name" value="Site Fabre Plomberie Chauffage">
+      <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
       <label>Nom<input name="nom" required autocomplete="name"></label>
       <label>Téléphone<input name="telephone" type="tel" required autocomplete="tel"></label>
       <label>Besoin<select name="besoin"><option>Fuite ou dépannage</option><option>Chauffe-eau</option><option>Chaudière ou chauffage</option><option>Salle de bain</option><option>Autre</option></select></label>
@@ -216,7 +217,7 @@ footer.end .links a{color:#d6e4f4}
 <ul><li>Répondre à votre demande de contact ou de devis (base légale : mesures précontractuelles prises à votre demande).</li><li>Réaliser et facturer les prestations commandées (base légale : exécution du contrat et obligations légales comptables).</li></ul>
 <p>Vos données ne sont ni vendues, ni louées, ni utilisées pour de la prospection sans votre accord.</p>
 <h2>Qui y a accès</h2>
-<p>Uniquement l’entreprise, et les prestataires techniques strictement nécessaires au fonctionnement du site et de la messagerie : hébergeur <span class="todo">[à compléter]</span>, fournisseur de messagerie et service d’envoi du formulaire (FormSubmit, qui transmet votre demande par e-mail à l’entreprise). Au chargement du site, les polices d’écriture sont fournies par Google Fonts : Google reçoit alors votre adresse IP, ce qui peut impliquer un transfert hors de l’Union européenne.</p>
+<p>Uniquement l’entreprise, et les prestataires techniques strictement nécessaires au fonctionnement du site et de la messagerie : hébergeur <span class="todo">[à compléter]</span>, fournisseur de messagerie et service d’envoi du formulaire (Web3Forms, qui transmet votre demande par e-mail à l’entreprise). Au chargement du site, les polices d’écriture sont fournies par Google Fonts : Google reçoit alors votre adresse IP, ce qui peut impliquer un transfert hors de l’Union européenne.</p>
 <h2>Durée de conservation</h2>
 <ul><li>Demandes de devis sans suite : 3 ans maximum à compter du dernier contact.</li><li>Devis acceptés, factures et pièces comptables : 10 ans, conformément aux obligations légales.</li></ul>
 <h2>Vos droits</h2>
